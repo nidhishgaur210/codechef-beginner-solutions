@@ -7,7 +7,7 @@ int main() {
     {
         int n,k;
         cin>>n>>k;
-        char a[100];
+        char a[n+1];
         for(int i=0;i<n;i++)
         cin>>a[i];
         int h=0;
